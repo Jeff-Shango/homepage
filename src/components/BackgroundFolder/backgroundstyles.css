@@ -1,0 +1,10 @@
+#background {
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/afternoon.gif');
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    background-position: top;
+}

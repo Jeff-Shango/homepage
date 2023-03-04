@@ -1,0 +1,46 @@
+#Title {
+    color: green;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#salutation {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: green;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    text-align: center;
+}
+
+.dateTime {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#dateSection, #timeSection {
+    margin: 0 auto;
+}
+
+
+#text {
+    margin: 0 auto;
+}

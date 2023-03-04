@@ -1,0 +1,75 @@
+#navBar {
+    background-color: darkred;
+}
+
+#dropdown-basic {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#dropdown-basic:hover {
+    font-weight: bolder;
+    background-color: red;
+    color: black;
+}
+
+#dropdownMenu {
+    background-color: black;
+    border: 1px solid white;
+}
+
+#dropdownItem {
+    color: white;
+    text-align: center;
+}
+
+#dropdownItem::after {
+    content: "";
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 5rem;
+    left: 25%;
+}
+
+#dropdownItem:hover {
+    color: black;
+    background-color: darkgreen;
+}
+
+/* label / search  */
+
+label {
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+
+input {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+#standard-basic {
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+    width: 25rem;
+    font-size: x-large;
+}
+
+#standard-basic:focus {
+    background-color: black;
+    color: white;
+}
